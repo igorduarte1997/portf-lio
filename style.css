@@ -17,7 +17,8 @@ color: #f4faf5;}
 
 .titulo-destaque {color: rgb(13, 224, 224);}
 
-h1 {color: #8FDBAB;}
+h1 {
+  color: #8FDBAB;}
 
 img {
   width: 300px;
@@ -48,6 +49,7 @@ gap: 0px;
   font-family:"Krona One", sans-serif;
 }
 .apresentacao__conteudo__texto{
+  margin-top: 40px;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
 }
@@ -60,6 +62,7 @@ gap: 0px;
   font-family: "Montserrat", sans-serif;
 }
 .apresentacao__links{
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   
