@@ -19,10 +19,26 @@ body
   background-color: black; 
 color: #f4faf5;}
 
-.titulo-destaque {color: rgb(13, 224, 224);}
+.cabecalho{
+  padding: 5% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho__menu__link{
+font-family:krona one ;
+font-size: 24px;
+font-weight: 600;
+color: #22d4fd;
+}
 
 h1 {
   color: #8FDBAB;}
+
+  .titulo-destaque {color: rgb(13, 224, 224);}
 
 .apresentacao__minhafoto {
   width: 700px;
