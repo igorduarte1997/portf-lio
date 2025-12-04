@@ -1,7 +1,16 @@
-/* definições de fontes */
+
 @font-face{
   font-family: "krona one";
   src: url("../fontes/KronaOne-Regular.ttf");
+}
+
+:root{
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+
+  --fonte-primaria:krona one ;
+  --fonte-segundaria: "Montserrat", sans-serif;
 }
 
 * {
@@ -13,11 +22,10 @@ padding: 0%;
 
 body
 {
-  background-image: url(fundo.jpg);
   height: 100vh;
   box-sizing: content-box;
-  background-color: black; 
-color: #f4faf5;}
+  background-color: var(--cor-primaria); 
+color: var(--cor-secundaria)}
 
 .cabecalho{
   padding: 5% 0% 0% 15%;
@@ -25,14 +33,15 @@ color: #f4faf5;}
 
 .cabecalho__menu{
   display: flex;
-  gap: 80px;
+  gap: 20px;
 }
 
 .cabecalho__menu__link{
-font-family:krona one ;
+font-family:krona one;
 font-size: 24px;
 font-weight: 600;
-color: #22d4fd;
+color: #22D4FD;
+text-decoration:none;
 }
 
 h1 {
@@ -51,17 +60,17 @@ h1 {
 .sonho {color: rgb(7, 45, 170);}
 
 .apresentacao { 
-  margin: 10% 15%;
+  margin: 5% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   
 }
 .apresentacao__conteudo {
-width: 615px;
+width: 600px;
 display: flex;
 flex-direction: column;
-gap: 0px;
+gap: 5px;
 
 }
 .apresentacao__conteudo__titulo {
@@ -69,10 +78,25 @@ gap: 0px;
   font-family:"Krona One", sans-serif;
 }
 .apresentacao__conteudo__texto{
-  margin-top: 40px;
-  font-size: 24px;
+  margin-top: 5px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
+
+.apresentacao__conteudo__texto__curriculo{
+   margin-top: 20px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+
 .apresentacao__conteudo__titulo1 {
   font-size: 24px;
   font-family:  "Montserrat", sans-serif;
@@ -86,6 +110,8 @@ gap: 0px;
   font-family: "krona one",sans-serif;
   font-weight: 400;
   font-size: 24px;
+  text-decoration: none;
+  
 }
 .apresentacao__links{
   margin-top: 20px;
