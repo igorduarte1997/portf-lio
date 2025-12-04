@@ -22,7 +22,7 @@ padding: 0%;
 
 body
 {
-  height: 100vh;
+  height: 80vh;
   box-sizing: content-box;
   background-color: var(--cor-primaria); 
 color: var(--cor-secundaria)}
